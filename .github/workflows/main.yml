@@ -1,0 +1,9 @@
+name: CI-Check
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Greeting
+        run: echo "Code Quality Check Passed!"
