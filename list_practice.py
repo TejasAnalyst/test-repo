@@ -2,6 +2,7 @@ friends = ["Tejas", "Amar", "Anand", "Samadhan", "Kirti", "Vaishu"]
 
 
 for person in friends:
-    print(f"Hello! {person}")
+    if person.startswith("A"):
+        print(f"Hello! {person}")
 
 
